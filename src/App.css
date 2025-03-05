@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: "handwriting-1";
+    /*Can be any text*/
+    src: local("handwriting-1"),
+        url("./fonts/handwriting-1.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "handwriting-2";
+    /*Can be any text*/
+    src: local("handwriting-2"),
+        url("./fonts/handwriting-2.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "handwriting-3";
+    /*Can be any text*/
+    src: local("handwriting-3"),
+        url("./fonts/handwriting-3.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "handwriting-4";
+    /*Can be any text*/
+    src: local("handwriting-4"),
+        url("./fonts/handwriting-4.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "handwriting-5";
+    /*Can be any text*/
+    src: local("handwriting-5"),
+        url("./fonts/handwriting-5.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "handwriting-6";
+    /*Can be any text*/
+    src: local("handwriting-6"),
+        url("./fonts/handwriting-6.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "handwriting-8";
+    /*Can be any text*/
+    src: local("handwriting-8"),
+        url("./fonts/handwriting-8.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "handwriting-7";
+    /*Can be any text*/
+    src: local("handwriting-7"),
+        url("./fonts/handwriting-7.ttf") format("truetype");
+}
+

@@ -1,0 +1,212 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.hr{
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.border-head{
+  border: 2px solid rgb(140, 137, 137);
+  border-radius: 0.5rem;
+}
+
+.border-full-container{
+  border: 2px solid rgb(94, 91, 91);
+  background-color: #1a2a41;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.border-top{
+  border: 2px solid rgb(94, 91, 91);
+  background-color: #1a2a41;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.border-bottom{
+  border: 2px solid rgb(94, 91, 91);
+  background-color: #1a2a41;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.border-tri{
+  border: 2px solid rgb(94, 91, 91);
+  background-color: #1a2a41;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.border-full{
+  border: 2px solid rgb(94, 91, 91);
+  background-color: #1a2a41;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.bg-sec{
+  background-color: #0B192C;
+  
+}
+
+.bg-ter{
+  background-color: #1E3E62;
+}
+
+.bg-button{
+  background-color: #FF6500;
+}
+
+
+.head-text {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+@media (max-width: 1280px) {
+  .head-text {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 640px) {
+  .head-text {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
+
+.subhead {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+}
+
+@media (max-width: 1280px) {
+  .subhead {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 640px) {
+  .subhead {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+
+textarea {
+  border: 1px solid rgb(85, 84, 84);
+  width: 100%;
+  max-width: 60rem; 
+  padding: 10px;
+}
+
+textarea::placeholder {
+  color: rgb(150, 150, 150);
+  opacity: 1; 
+}
+
+@media (min-width: 640px) {
+  textarea {
+    max-width: 40rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+  textarea {
+    max-width: 50rem;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  textarea {
+    max-width: 60rem;
+  }
+}
+
+
+input[type="file"] {
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+input[type="file"]::-webkit-file-upload-button {
+  background-color: #FF6500;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.download-btn {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+  cursor: pointer;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.custom-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #676363;
+  border-radius: 5px;
+  background-color: #0B192C;
+  color: #fff;
+  cursor: pointer;
+  appearance: none; 
+}
+
+/* Add a custom arrow */
+.custom-select {
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+}
+
+/* Hover effect */
+.custom-select:hover {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
