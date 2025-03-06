@@ -67,7 +67,7 @@ function App() {
                                     }}
                                 >
                                     
-                                    <option  value={``}>Select Font Style</option>
+                                    <option  value={``}>Select Handwriting Style</option>
                                     <option  value={`handwriting-1`}>handwriting-1</option>
                                     <option  value={`handwriting-2`}>handwriting-2</option>
                                     <option  value={`handwriting-3`}>handwriting-3</option>
